@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="97dp"
+        android:layout_height="738dp"
+        app:srcCompat="@drawable/i1"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <ImageButton
+        android:id="@+id/GoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/arrow_left"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="62dp"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/button"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/Fiction"
+        android:layout_width="68dp"
+        android:layout_height="95dp"
+        android:background="@null"
+        android:rotation="-90"
+        android:text="Fiction"
+        android:textColor="#800E54"
+        android:textSize="18sp"
+        tools:ignore="DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/Scientific"
+        android:layout_width="84dp"
+        android:layout_height="128dp"
+        android:background="@null"
+        android:rotation="-90"
+        android:text="Scientific"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/ManAndLife"
+        android:layout_width="76dp"
+        android:layout_height="154dp"
+        android:background="@null"
+        android:rotation="-90"
+        android:text="Man and life"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/History"
+        android:layout_width="93dp"
+        android:layout_height="135dp"
+        android:background="@null"
+        android:rotation="-90"
+        android:text="History"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <ScrollView
+        android:layout_width="311dp"
+        android:layout_height="629dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="104dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paulo Coelho"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/TheAlchemist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:translationX="105sp"
+                app:srcCompat="@drawable/book4_1"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Alchemist"
+                android:textAlignment="center"
+                android:textColor="#180640"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paulo Coelho"
+                android:textAlignment="center"
+                android:textColor="#800E54"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30 EGP"
+                android:textAlignment="center"
+                android:textColor="#0277BD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paulo Coelho"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/TheHobbit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/book2_1"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@null"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hobbit"
+                android:textAlignment="center"
+                android:textColor="#180640"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="J. R. R. Tolkien"
+                android:textAlignment="center"
+                android:textColor="#800E54"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="35 EGP"
+                android:textAlignment="center"
+                android:textColor="#0277BD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paulo Coelho"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/Alice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/book5"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alice In Wonderland"
+                android:textAlignment="center"
+                android:textColor="#180640"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lewis Carroll"
+                android:textAlignment="center"
+                android:textColor="#800E54"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Free"
+                android:textAlignment="center"
+                android:textColor="#0277BD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lewis Carroll"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="233dp"
+        android:layout_height="40dp"
+        android:text="Fiction Books"
+        android:textAlignment="textStart"
+        android:textColor="#180640"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:textColor="#0277BD"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_10"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="-22dp" />
+
+</android.support.constraint.ConstraintLayout>

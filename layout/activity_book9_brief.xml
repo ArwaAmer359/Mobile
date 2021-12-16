@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book1Brief">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="418dp"
+        android:layout_height="734dp"
+        app:srcCompat="@drawable/background"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageButton
+        android:id="@+id/GoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/arrow_left"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="429dp"
+        android:layout_height="567dp"
+        app:srcCompat="@drawable/infobackground"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/Brief"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Brief"
+        android:textColor="#800E54"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="147dp"
+        android:layout_height="225dp"
+        app:srcCompat="@drawable/book99999_1"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Info"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ScrollView
+        android:layout_width="310dp"
+        android:layout_height="222dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="343dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" World War I: The Definitive Visual History: From Sarajevo to Versailles:"
+                android:textColor="#180640"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="World War I: The Definitive Visual Guide, a vividly illustrated, in-depth account of the Great War. Written by historian R. G. Grant, and created by DK's award-winning editorial and design team, World War I charts the developments of the war from a global perspective. Using illustrated timelines, detailed maps, and personal accounts, readers will see the oft-studied war in a new light. Key episodes are set clearly in the wider context of the conflict, in-depth profiles look at the key generals and political leaders, and full-color photo galleries showcase the weapons, inventions, and new technologies that altered the course of history. A vivid portrait of the confrontation on land, sea, and sky, World War I: The Definitive Visual Guide offers readers a bold and thoughtful new look at this complex and explosive moment in history." />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@drawable/buy"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="649dp" />
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/pause_circle"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/play_circle"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+</android.support.constraint.ConstraintLayout>
